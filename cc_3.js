@@ -36,3 +36,11 @@ feedback.push({customerName: 'Jane Jones',
     feedbackText: 'Very Mid',
     rating: 5}); //Added New Feedback Object 
 console.log(feedback);
+
+//Task 5- Inventory Management System Scenario:
+let inventory = {
+    itemName: 'Iron',
+    stockCount: 879,
+    price: 27.99,
+calculateTotalValue: function(){return this.stockCount * this.price;}}; //Calculates the returns total revenue 
+console.log(inventory.calculateTotalValue()); // Output the total value 
